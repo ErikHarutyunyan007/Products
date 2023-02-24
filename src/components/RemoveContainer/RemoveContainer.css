@@ -1,0 +1,14 @@
+.RemoveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RemoveContainer-Title {
+  margin-bottom: 24px;
+}
+
+.RemoveContainer-Actions>.Button:first-of-type {
+  margin-right: 16px;
+}

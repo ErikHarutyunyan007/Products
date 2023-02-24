@@ -1,0 +1,41 @@
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999999;
+}
+
+.Modal-Content {
+  position: relative;
+  width: 100%;
+  max-width: 564px;
+  background: #FFF;
+  border-radius: 16px;
+  padding: 36px;
+}
+
+.Modal-CloseButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.Modal-CloseButton::after {
+  display: flex;
+  content: "\00d7";
+  font-size: 36px;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}

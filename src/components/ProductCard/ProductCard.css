@@ -1,0 +1,48 @@
+.ProductCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 8px;
+
+}
+
+.ProductCard-Title {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.ProductCard-Description {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.ProductCard-Manufacturer {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.ProductCard-Quantity {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.ProductCard-Price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.ProductCard-Actions {
+  display: flex;
+}
+
+.ProductCard-Actions>.Button:first-of-type {
+  margin-right: 16px;
+}

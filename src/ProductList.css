@@ -1,0 +1,13 @@
+.ProductList {
+  width: 100%;
+  max-width: 1200px;
+  margin: 48px auto 48px;
+  border: 1px solid #000;
+  padding: 16px;
+}
+
+.ProductList-Actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
